@@ -1,1 +1,32 @@
-
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Lemonade weed",
+      "price": 10€,
+      "seller": "User123",
+      "description": "Sleep aid - no."
+    },
+    {
+      "id": 2,
+      "name": "Baklava weed",
+      "price": 10€,
+      "seller": "User321",
+      "description": "Sleep aid - yes."
+    },
+    {
+      "id": 3,
+      "name": "Cali weed",
+      "price": 15€,
+      "seller": "User123123",
+      "description": "Happy mood - yes."
+    },
+    {
+      "id": 4,
+      "name": "Blue Dream",
+      "price": 10€,
+      "seller": "User321321",
+      "description": "Sleep aid - no, Happy mood - yes."
+    }
+  ]
+}
