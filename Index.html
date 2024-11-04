@@ -1,13 +1,30 @@
-<div id="item-list">
-    <h2>Items for Sale</h2>
-    <ul id="items"></ul>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Online Marketplace</h1>
+    <div id="login-section">
+        <input type="text" id="username" placeholder="Username">
+        <button onclick="login()">Login</button>
+    </div>
+    
+    <div id="item-list">
+        <h2>Items for Sale</h2>
+        <ul id="items"></ul>
+    </div>
 
-<div id="sell-section">
-    <h2>Sell an Item</h2>
-    <input type="text" id="item-name" placeholder="Item Name">
-    <input type="number" id="item-price" placeholder="Price">
-    <button onclick="addItem()">List Item</button>
-</div>
-
-<script src="scripts.js"></script>
+    <div id="sell-section">
+        <h2>Sell an Item</h2>
+        <input type="text" id="item-name" placeholder="Item Name">
+        <input type="number" id="item-price" placeholder="Price">
+        <button onclick="addItem()">List Item</button>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
